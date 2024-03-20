@@ -31,3 +31,12 @@ print(match)
 **2.Search Function**
 
 - The search function takes a regular expression pattern and a string and searches for that pattern within the string. If the search is successful, search() returns a match object or None otherwise
+
+```python
+import re
+a="hello kirangajjana, How are you?"
+b=re.search('kirangajjana',a)
+print(b)
+
+```
+- By using search function we can find the string present inside the give text or not as per above code
